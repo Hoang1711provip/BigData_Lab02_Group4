@@ -1,0 +1,55 @@
+{
+  "test_id": "I01",
+  "status": "PASS",
+  "timestamp_utc": "2026-10-11T17:26:45.032156+00:00",
+  "fixture_version": "research-telemetry-v1",
+  "as_of": "2026-02-09T00:00:00Z",
+  "bucket": "research-raw",
+  "prefix": "lab2/inputs/batch-01/",
+  "objects": [
+    {
+      "source_bucket": "research-raw",
+      "source_key": "lab2/inputs/batch-01/observations_a.csv",
+      "expected_bytes": 421028,
+      "expected_sha256": "5157418915d867980fac8d84551a8b856bba1669ca2e33cef91a15ee82101aea",
+      "status": "PASS",
+      "http": 200,
+      "actual_bytes": 421028,
+      "actual_sha256": "5157418915d867980fac8d84551a8b856bba1669ca2e33cef91a15ee82101aea",
+      "snapshot_path": "/tmp/lab2-i01/snapshot/observations_a.csv"
+    },
+    {
+      "source_bucket": "research-raw",
+      "source_key": "lab2/inputs/batch-01/observations_b.jsonl",
+      "expected_bytes": 1037439,
+      "expected_sha256": "3072ad0b725ea3763ad4d1a7c744465f997614892dd1460f9cd815094ec61b70",
+      "status": "PASS",
+      "http": 200,
+      "actual_bytes": 1037439,
+      "actual_sha256": "3072ad0b725ea3763ad4d1a7c744465f997614892dd1460f9cd815094ec61b70",
+      "snapshot_path": "/tmp/lab2-i01/snapshot/observations_b.jsonl"
+    },
+    {
+      "source_bucket": "research-raw",
+      "source_key": "lab2/inputs/batch-01/qa_reference.csv",
+      "expected_bytes": 1423,
+      "expected_sha256": "129463c2a4e63f2dabfa2a5dd31b92e4fe4858d2415d3c7ef495cc6c6d7b65c2",
+      "status": "PASS",
+      "http": 200,
+      "actual_bytes": 1423,
+      "actual_sha256": "129463c2a4e63f2dabfa2a5dd31b92e4fe4858d2415d3c7ef495cc6c6d7b65c2",
+      "snapshot_path": "/tmp/lab2-i01/snapshot/qa_reference.csv"
+    },
+    {
+      "source_bucket": "research-raw",
+      "source_key": "lab2/inputs/batch-01/sensors.csv",
+      "expected_bytes": 256,
+      "expected_sha256": "02c390e127c37b9d12e9ca156eae23a450ad1ae037001cddd9651bb6516b9bde",
+      "status": "PASS",
+      "http": 200,
+      "actual_bytes": 256,
+      "actual_sha256": "02c390e127c37b9d12e9ca156eae23a450ad1ae037001cddd9651bb6516b9bde",
+      "snapshot_path": "/tmp/lab2-i01/snapshot/sensors.csv"
+    }
+  ]
+}

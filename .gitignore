@@ -11,3 +11,5 @@ input/
 task1/snapshot/
 task1/observation_envelopes.jsonl
 trusted_manifest.json
+kubeconfig
+private/
