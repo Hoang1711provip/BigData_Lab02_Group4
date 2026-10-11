@@ -1,0 +1,12 @@
+{
+  "test": "I02",
+  "mode": "LOCAL_PREFLIGHT",
+  "source_counts": {
+    "observations_a.csv": 5000,
+    "observations_b.jsonl": 5205
+  },
+  "total_envelopes": 10205,
+  "unique_physical_keys": 10205,
+  "malformed_jsonl_preserved": 5,
+  "status": "LOCAL-PASS"
+}
