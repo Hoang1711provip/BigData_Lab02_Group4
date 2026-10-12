@@ -1,0 +1,19 @@
+{
+  "test": "C01",
+  "expected_total": 10205,
+  "results": {
+    "raw_count": 10205,
+    "curated_count": 9610,
+    "quarantine_count": 395,
+    "duplicates_count": 200,
+    "output_count": 10205,
+    "missing_ids": 0,
+    "invented_ids": 0,
+    "repeated_raw_ids": 0,
+    "repeated_output_ids": 0,
+    "repeated_business_ids": 0,
+    "null_raw_ids": 0,
+    "null_output_ids": 0
+  },
+  "passed": true
+}
