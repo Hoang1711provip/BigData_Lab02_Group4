@@ -1,0 +1,9 @@
+{
+  "review_id": "REV-2026-10-12-001",
+  "reviewer": "domain-data-steward",
+  "main_curation_author": "data-engineering-lead",
+  "decision": "APPROVED",
+  "reason": "All 8 quality gates passed (8/8 metrics) and 8 mutation probes successfully rejected invalid candidates.",
+  "run_id": "985eaa66-5f15-454e-9eb7-701444958895",
+  "candidate_sha256": "0406d4baa584ec9873b6dd11c9c78cd4df04a81d9d92f7d901b9fac771859772"
+}

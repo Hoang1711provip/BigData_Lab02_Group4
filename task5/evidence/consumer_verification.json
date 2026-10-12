@@ -1,0 +1,9 @@
+{
+  "fetched_manifest": "task5/evidence/release_manifest.json",
+  "manifest_sha256_verified": true,
+  "curated_parquet_sha256_verified": true,
+  "recomputed_row_count": 9610,
+  "row_count_matches_manifest": true,
+  "raw_get_denial_confirmed": true,
+  "rejected_probes_have_no_approved_manifest": true
+}

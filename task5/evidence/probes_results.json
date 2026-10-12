@@ -1,0 +1,58 @@
+[
+  {
+    "probe_id": "P01",
+    "change": "Unmodified candidate",
+    "expected": "PASS",
+    "actual": "PASS",
+    "status": "MATCH"
+  },
+  {
+    "probe_id": "P02",
+    "change": "Set temp to 100.00",
+    "expected": "REJECT / VALUE",
+    "actual": "REJECT / VALUE",
+    "status": "MATCH"
+  },
+  {
+    "probe_id": "P03",
+    "change": "Set temp to NULL",
+    "expected": "REJECT / REQUIRED",
+    "actual": "REJECT / REQUIRED",
+    "status": "MATCH"
+  },
+  {
+    "probe_id": "P04",
+    "change": "Append duplicate record",
+    "expected": "REJECT / UNIQUENESS",
+    "actual": "REJECT / UNIQUENESS",
+    "status": "MATCH"
+  },
+  {
+    "probe_id": "P05",
+    "change": "Remove steward",
+    "expected": "REJECT / METADATA",
+    "actual": "REJECT / METADATA",
+    "status": "MATCH"
+  },
+  {
+    "probe_id": "P06",
+    "change": "Tamper input hash",
+    "expected": "REJECT / INPUT_INTEGRITY",
+    "actual": "REJECT / INPUT_INTEGRITY",
+    "status": "MATCH"
+  },
+  {
+    "probe_id": "P07",
+    "change": "Remove curation lineage output",
+    "expected": "REJECT / LINEAGE",
+    "actual": "REJECT / LINEAGE",
+    "status": "MATCH"
+  },
+  {
+    "probe_id": "P08",
+    "change": "Remove QA sample ID",
+    "expected": "REJECT / COVERAGE",
+    "actual": "REJECT / COVERAGE",
+    "status": "MATCH"
+  }
+]
