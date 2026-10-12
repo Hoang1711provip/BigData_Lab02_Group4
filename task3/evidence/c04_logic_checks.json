@@ -1,0 +1,11 @@
+{
+  "test": "C04_LOGIC_ONLY",
+  "results": {
+    "C04-01_fahrenheit": true,
+    "C04-02_invalid_unit_numeric": true,
+    "C04-03_blank_email": true,
+    "C04-04_invalid_newer_winner": true
+  },
+  "passed": true,
+  "note": "These checks test isolated SQL logic, not execution of the complete curation pipeline on fixtures."
+}

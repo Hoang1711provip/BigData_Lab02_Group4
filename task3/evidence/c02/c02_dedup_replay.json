@@ -1,0 +1,25 @@
+{
+  "test": "C02_PARTIAL",
+  "description": "Precheck and deduplication order invariance",
+  "reversed": {
+    "winners": "a0cf830da2205cb2494f52359cba836635999f874b0c88e67572a70b2fbe40b6",
+    "duplicates": "16da09da77b3ffd51cd10f5980db46820f933da3d93c131c1d4f3498c6571603",
+    "precheck_quarantine": "c94cdd3efe3d65e16834666e56815c100902a33614b2afdfee9c9c7af743b76b",
+    "counts": {
+      "winners": 9960,
+      "duplicates": 200,
+      "precheck_quarantine": 45
+    }
+  },
+  "shuffled": {
+    "winners": "a0cf830da2205cb2494f52359cba836635999f874b0c88e67572a70b2fbe40b6",
+    "duplicates": "16da09da77b3ffd51cd10f5980db46820f933da3d93c131c1d4f3498c6571603",
+    "precheck_quarantine": "c94cdd3efe3d65e16834666e56815c100902a33614b2afdfee9c9c7af743b76b",
+    "counts": {
+      "winners": 9960,
+      "duplicates": 200,
+      "precheck_quarantine": 45
+    }
+  },
+  "passed": true
+}

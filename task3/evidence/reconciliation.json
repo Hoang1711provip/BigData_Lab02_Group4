@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "raw_envelopes": 10205,
+    "curated": 9610,
+    "quarantine": 395,
+    "duplicates": 200
+  },
+  "reconciled": true,
+  "input_sha256": "e004df664e4cc7c24f0c5f45724f0202ebda987d2c433f408592152cdd81d5e1",
+  "contract_sha256": "b25a48855fd318640ee74543eab9a1910be7a0f7c810b0db9b763d180decdf0d",
+  "script_sha256": "5f1dbde6bc37f48b62bf680bab4b96b2d29fc9f42d3633744635513c55f3e6fe",
+  "source_file_sha256": {
+    "observations_a.csv": "5157418915d867980fac8d84551a8b856bba1669ca2e33cef91a15ee82101aea",
+    "observations_b.jsonl": "3072ad0b725ea3763ad4d1a7c744465f997614892dd1460f9cd815094ec61b70"
+  }
+}

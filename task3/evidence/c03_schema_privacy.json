@@ -1,0 +1,90 @@
+{
+  "test": "C03",
+  "expected_schema": [
+    [
+      "record_id",
+      "VARCHAR"
+    ],
+    [
+      "sensor_id",
+      "VARCHAR"
+    ],
+    [
+      "site",
+      "VARCHAR"
+    ],
+    [
+      "event_time_utc",
+      "TIMESTAMP"
+    ],
+    [
+      "ingest_time_utc",
+      "TIMESTAMP"
+    ],
+    [
+      "temperature_c",
+      "DECIMAL(8,2)"
+    ],
+    [
+      "is_late",
+      "BOOLEAN"
+    ],
+    [
+      "source_object",
+      "VARCHAR"
+    ],
+    [
+      "source_row",
+      "BIGINT"
+    ],
+    [
+      "source_sha256",
+      "VARCHAR"
+    ]
+  ],
+  "actual_schema": [
+    [
+      "record_id",
+      "VARCHAR"
+    ],
+    [
+      "sensor_id",
+      "VARCHAR"
+    ],
+    [
+      "site",
+      "VARCHAR"
+    ],
+    [
+      "event_time_utc",
+      "TIMESTAMP"
+    ],
+    [
+      "ingest_time_utc",
+      "TIMESTAMP"
+    ],
+    [
+      "temperature_c",
+      "DECIMAL(8,2)"
+    ],
+    [
+      "is_late",
+      "BOOLEAN"
+    ],
+    [
+      "source_object",
+      "VARCHAR"
+    ],
+    [
+      "source_row",
+      "BIGINT"
+    ],
+    [
+      "source_sha256",
+      "VARCHAR"
+    ]
+  ],
+  "privacy_pass": true,
+  "invalid_source_hashes": 0,
+  "passed": true
+}

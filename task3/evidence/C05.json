@@ -1,0 +1,54 @@
+{
+  "test": "C05",
+  "mode": "LOCAL",
+  "input_file": "curated.parquet",
+  "row_count": 9610,
+  "schema": [
+    {
+      "name": "record_id",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "sensor_id",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "site",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "event_time_utc",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "ingest_time_utc",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "temperature_c",
+      "type": "DECIMAL(8,2)"
+    },
+    {
+      "name": "is_late",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "source_object",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    },
+    {
+      "name": "source_sha256",
+      "type": "VARCHAR"
+    }
+  ],
+  "checks": {
+    "correct_file_found": true,
+    "nonempty_dataset": true,
+    "exact_schema": true
+  },
+  "status": "PASS"
+}
