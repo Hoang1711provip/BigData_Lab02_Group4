@@ -1,0 +1,21 @@
+{
+  "restricted_datasets": [
+    {
+      "dataset_id": "raw-observations",
+      "retention": {
+        "duration": "P30D",
+        "time_basis": "retrieval_time",
+        "hold_policy": "Retain raw batch until batch validation and active release dependency clears"
+      }
+    },
+    {
+      "dataset_id": "quarantine-collection",
+      "retention": {
+        "duration": "P7D",
+        "time_basis": "run_completion_time",
+        "hold_policy": "Hold for review, legal hold or debugging"
+      }
+    }
+  ],
+  "release_schema_has_no_email": true
+}

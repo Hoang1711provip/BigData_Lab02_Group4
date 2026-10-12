@@ -1,0 +1,12 @@
+{
+  "trace_type": "ACCEPTED_ROW",
+  "target_record_id": "REC-00001",
+  "candidate_location": "task3/candidate/curated.parquet",
+  "source_tracing": {
+    "source_object": "observation_a.csv",
+    "source_sha256": "a1b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef0",
+    "source_row_ordinal": 42,
+    "selected_version": "batch-01-v1",
+    "transformation_rule": "UPPER(TRIM(record_id)) + DECIMAL parse"
+  }
+}

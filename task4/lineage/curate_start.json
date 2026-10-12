@@ -1,0 +1,31 @@
+{
+  "eventType": "START",
+  "eventTime": "2026-02-09T00:00:00.000Z",
+  "run": {
+    "runId": "985eaa66-5f15-454e-9eb7-701444958895"
+  },
+  "job": {
+    "namespace": "research-telemetry-pipeline",
+    "name": "curate"
+  },
+  "inputs": [
+    {
+      "namespace": "s3://research-telemetry-raw",
+      "name": "observation_a"
+    },
+    {
+      "namespace": "s3://research-telemetry-raw",
+      "name": "observation_b"
+    },
+    {
+      "namespace": "s3://research-telemetry-raw",
+      "name": "sensors_registry"
+    },
+    {
+      "namespace": "s3://research-telemetry-raw",
+      "name": "contract"
+    }
+  ],
+  "outputs": [],
+  "producer": "https://github.com/openlineage/openlineage-python"
+}

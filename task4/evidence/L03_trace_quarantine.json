@@ -1,0 +1,15 @@
+{
+  "trace_type": "QUARANTINED_ROW",
+  "target_record_id": "REC-ERR-999",
+  "quarantine_location": "task3/candidate/quarantine.parquet",
+  "source_tracing": {
+    "source_object": "observation_b.csv",
+    "source_sha256": "b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef01",
+    "source_row_ordinal": 105,
+    "primary_reason": "VALUE_OUT_OF_RANGE",
+    "all_reasons": [
+      "VALUE_OUT_OF_RANGE",
+      "UNREGISTERED_SENSOR"
+    ]
+  }
+}

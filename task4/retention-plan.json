@@ -1,0 +1,34 @@
+{
+  "policy_version": "1.0.0",
+  "course_policies": {
+    "raw_input": "30 days from retrieval",
+    "quarantine": "7 days from run completion",
+    "approved_release": "90 days from publication"
+  },
+  "dry_run_cases": [
+    {
+      "case_id": "DRY_RUN_01",
+      "description": "Expired scratch object; no hold; no dependent release.",
+      "expected_result": "ELIGIBLE",
+      "reason": "Object expired and has no active hold or downstream dependencies."
+    },
+    {
+      "case_id": "DRY_RUN_02",
+      "description": "Expired quarantine object under hold.",
+      "expected_result": "KEEP / HOLD",
+      "reason": "Expiration overridden by an active legal or debugging hold."
+    },
+    {
+      "case_id": "DRY_RUN_03",
+      "description": "Expired raw input referenced by an active approved release.",
+      "expected_result": "KEEP / ACTIVE_DEPENDENCY",
+      "reason": "Expiration overridden because an active approved release depends on this raw input."
+    },
+    {
+      "case_id": "DRY_RUN_04",
+      "description": "Unexpired object, no hold or dependency.",
+      "expected_result": "KEEP / NOT_EXPIRED",
+      "reason": "Retention duration has not yet elapsed."
+    }
+  ]
+}

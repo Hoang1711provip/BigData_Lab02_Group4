@@ -1,0 +1,7 @@
+{
+  "1_unit": "Celsius (\u00b0C) stored as DECIMAL(8,2)",
+  "2_reference_population": "QA reference sample population (100 matched record IDs)",
+  "3_evaluation_cutoff": "2026-02-09T00:00:00Z (Fixed AS_OF)",
+  "4_known_limitations": "Late-arriving records up to 900s allowed (timeliness threshold 0.95)",
+  "5_contact_role": "domain-data-steward / data-engineering-lead"
+}

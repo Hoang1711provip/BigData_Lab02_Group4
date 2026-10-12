@@ -1,0 +1,8 @@
+{
+  "dataset_id": "curated-candidate",
+  "owner": "data-engineering-lead",
+  "steward": "domain-data-steward",
+  "row_count": 9610,
+  "location": "task3/candidate/curated.parquet",
+  "schema_version": "1.0.0"
+}
