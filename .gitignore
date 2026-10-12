@@ -14,3 +14,10 @@ trusted_manifest.json
 kubeconfig
 private/
 private/
+work.duckdb
+envelopes.csv
+snapshot/
+*.env
+s3.json
+observer.json
+kubeconfig*
